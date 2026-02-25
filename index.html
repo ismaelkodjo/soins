@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infirmier libéral - Soins à domicile professionnels et personnalisés. Disponible 7j/7.">
+    <title>Infirmier Libéral - Soins à Domicile</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <i class="fas fa-heartbeat"></i>
+                <span>Infirmier Libéral</span>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#apropos" class="nav-link">À Propos</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="hero-title">Soins Infirmiers à Domicile</h1>
+            <p class="hero-subtitle">Professionnel, attentif et disponible pour vous accompagner au quotidien</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-phone"></i> Prendre rendez-vous
+                </a>
+                <a href="#services" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i> Nos services
+                </a>
+            </div>
+            
+            <!-- Quick Info Cards -->
+            <div class="quick-info">
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Disponibilité</h3>
+                        <p>7j/7 - 8h à 20h</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-home"></i>
+                    <div>
+                        <h3>À domicile</h3>
+                        <p>Soins confortables</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-check-circle"></i>
+                    <div>
+                        <h3>Conventionné</h3>
+                        <p>Sécurité sociale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services</h2>
+                <p class="section-subtitle">Une gamme complète de soins infirmiers à domicile</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-syringe"></i>
+                    </div>
+                    <h3>Injections & Prélèvements</h3>
+                    <ul>
+                        <li>Injections intramusculaires et sous-cutanées</li>
+                        <li>Prises de sang</li>
+                        <li>Vaccinations</li>
+                        <li>Tests glycémiques</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-band-aid"></i>
+                    </div>
+                    <h3>Pansements</h3>
+                    <ul>
+                        <li>Pansements simples et complexes</li>
+                        <li>Plaies chroniques</li>
+                        <li>Escarres</li>
+                        <li>Brûlures</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Suivi Médicamenteux</h3>
+                    <ul>
+                        <li>Préparation des piluliers</li>
+                        <li>Administration des médicaments</li>
+                        <li>Surveillance du traitement</li>
+                        <li>Éducation thérapeutique</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <h3>Surveillance</h3>
+                    <ul>
+                        <li>Prise de tension artérielle</li>
+                        <li>Contrôle du diabète</li>
+                        <li>Surveillance post-opératoire</li>
+                        <li>Suivi des constantes vitales</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-nurse"></i>
+                    </div>
+                    <h3>Soins Palliatifs</h3>
+                    <ul>
+                        <li>Accompagnement en fin de vie</li>
+                        <li>Gestion de la douleur</li>
+                        <li>Soutien au patient et à la famille</li>
+                        <li>Confort et dignité</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Soins Spécifiques</h3>
+                    <ul>
+                        <li>Soins post-natals</li>
+                        <li>Soins de stomie</li>
+                        <li>Chimiothérapie à domicile</li>
+                        <li>Nutrition entérale</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about section bg-light">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h2 class="section-title">À Propos</h2>
+                    <p class="lead">Infirmier diplômé d'État avec plus de 10 ans d'expérience dans les soins à domicile.</p>
+                    
+                    <p>Ma vocation est d'offrir des soins de qualité dans le confort de votre domicile, en respectant votre dignité et votre bien-être. Je m'engage à vous fournir un accompagnement personnalisé et professionnel.</p>
+                    
+                    <div class="qualifications">
+                        <h3>Qualifications</h3>
+                        <ul class="qualifications-list">
+                            <li>
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Diplôme d'État d'Infirmier</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-certificate"></i>
+                                <span>Formation en soins palliatifs</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Conventionné Sécurité Sociale</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Assurance professionnelle à jour</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="values">
+                        <h3>Mes Valeurs</h3>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <i class="fas fa-hands-helping"></i>
+                                <span>Bienveillance</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-star"></i>
+                                <span>Excellence</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-user-shield"></i>
+                                <span>Confidentialité</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-comments"></i>
+                                <span>Écoute</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">N'hésitez pas à me contacter pour toute demande de soins</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de Contact</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p><a href="tel:+22890140074">90 14 00 74</a></p>
+                            <small>Disponible 7j/7 de 7h30 à 20h</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:contact@infirmier-liberal.fr">contact@infirmier-liberal.fr</a></p>
+                            <small>Réponse sous 24h</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Zone d'intervention</h4>
+                            <p>Dapaong</p>
+                            <small>Quartier Eni</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lundi - Dimanche</p>
+                            <small>8h00 - 20h00</small>
+                        </div>
+                    </div>
+                    
+                    <div class="urgence-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div>
+                            <h4>Urgence ?</h4>
+                            <p>En cas d'urgence vitale, appelez le <strong>15 (SAMU)</strong> ou le <strong>112</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h3>Demande de Rendez-vous</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nom">Nom complet *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="telephone">Téléphone *</label>
+                                <input type="tel" id="telephone" name="telephone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="adresse">Adresse</label>
+                            <input type="text" id="adresse" name="adresse">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Type de soin</label>
+                            <select id="service" name="service">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="injection">Injections & Prélèvements</option>
+                                <option value="pansement">Pansements</option>
+                                <option value="medicaments">Suivi Médicamenteux</option>
+                                <option value="surveillance">Surveillance</option>
+                                <option value="palliatif">Soins Palliatifs</option>
+                                <option value="specifique">Soins Spécifiques</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre besoin ou votre demande..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Envoyer la demande
+                        </button>
+                        
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-heartbeat"></i> Infirmier Libéral</h3>
+                    <p>Soins professionnels à domicile avec attention et respect.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Injections</a></li>
+                        <li><a href="#services">Pansements</a></li>
+                        <li><a href="#services">Surveillance</a></li>
+                        <li><a href="#services">Soins palliatifs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#apropos">À propos</a></li>
+                        <li><a href="#services">Nos services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +228 90 14 00 74</li>
+                        <li><i class="fas fa-envelope"></i> contact@infirmier-liberal.fr</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Dapaong Togo</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Infirmier Libéral. Tous droits réservés.</p>
+                <p class="footer-legal">
+                    <a href="#">Mentions légales</a> | 
+                    <a href="#">Politique de confidentialité</a> | 
+                    <a href="#">Conditions d'utilisation</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
